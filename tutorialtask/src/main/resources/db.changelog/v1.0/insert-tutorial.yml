@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20221207-45
+      author: puruza.macidova
+      changes:
+        - sql:
+            sql: insert into tutorials (id,description,published,title) values (4,'BACK-END',false,'D1');
